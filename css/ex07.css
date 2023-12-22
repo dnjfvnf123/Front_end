@@ -1,0 +1,18 @@
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.content{
+    overflow: hidden;
+}
+
+.section{
+    width: 700px; float:left;
+}
+
+.aside{
+    width: 260px;
+    float:left;
+}
+

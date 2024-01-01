@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "jquery-3.7.1.min.js"></script>
+    <script>
+        // 이미지 가져오기
+        $(document).ready(function(){
+            $("butten").on({
+                click:function(){
+                    $(this).text("클릭이벤트");
+                },
+                dbclick:function(){
+                    $(this).text("더블클릭이벤트");
+                },
+                MouseEvent:function(){
+                    $(this).text("마우스커서이벤트");
+                },
+            })
+        });
+
+    </script>
+</head>
+<body>
+    <button>버튼 이벤트</button>
+</body>
+</html>

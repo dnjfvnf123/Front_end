@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "jquery-3.7.1.min.js"></script>
+    <script>
+        // 이미지 가져오기
+        $(document).ready(function(){
+            $("butten").click(function(){
+                alert("클릭 이벤트 동작");
+                $("butten").text("텍스트변경");
+
+                alert(event.currentTarget);
+            })
+        });
+
+    </script>
+</head>
+<body>
+    <button>클릭 이벤트 버튼</button>
+</body>
+</html>

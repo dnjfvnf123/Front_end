@@ -6,8 +6,6 @@ h2{font-family: 'Philosopher', sans-serif;}
     margin:0 auto;
     padding: 0 4%;
 }
-
-
 .home-content{
     text-align: center;
     margin-top:10%
@@ -16,7 +14,6 @@ h2{font-family: 'Philosopher', sans-serif;}
     font-size:1.125rem;
     margin:10px 0 42px;
 }
-
 .page-title{
     font-size:5rem;
     text-transform: uppercase;
@@ -32,8 +29,6 @@ h2{font-family: 'Philosopher', sans-serif;}
 .button:hover{
     background:#0090aa;
 }
-
-
 .page-header{
     display: flex;
     justify-content: space-between;
@@ -49,7 +44,6 @@ h2{font-family: 'Philosopher', sans-serif;}
     margin-top:34px;
     list-style: none;
 }
-
 .main-nav li{
     margin-left: 36px;
 }
@@ -59,12 +53,10 @@ h2{font-family: 'Philosopher', sans-serif;}
 .main-nav a:hover{
     color:#0bd;
 }
-
 #home{
     background-image: url(../img/main-bg.jpg);
     min-height: 100vh;
 }
-
 .big-bg{
     background-size:cover;
     background-position: center top;            

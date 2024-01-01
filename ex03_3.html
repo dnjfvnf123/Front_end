@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin: 0 auto;
+            width: 960;
+            display: grid;
+            grid-template-columns: 2fr 8fr; 
+            grid-gap: 10px;
+        }
+    </style>
+
+    <style>
+        .header{
+            grid-row: 1/2;
+            grid-column: 1/4;
+        }
+    </style>
+
+    <style>
+        .footer{
+            grid-row: 3/4;
+            grid-column: 1/4;
+        }
+    </style>
+
+    <style>
+        .aside{
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>세상을 한눈에 삶을 편안하게</h1>
+            <h2>공간정보빅데이터과 Department of Geospatial BigData</h2>
+        </div>
+        <div class="aside">
+            <h3>학과안내</h3>
+            <p>위치: 5호관 401호</p>
+            <p>TEL: 032-870-2240</p>
+            <p>FAX: 032-870-2516</p>
+        </div>
+        <div class="section">
+            <h2>학과개요</h2>
+                <h3>이론과 실무를 겸비한 공간정보 엔지니어 양성</h3>
+                <p>Officia laborum adipisicing laboris irure elit culpa non Lorem sint sit in.</p>
+                <p>Officia laborum adipisicing laboris irure elit culpa non Lorem sint sit in.</p>
+        </div>
+        <div class="footer">
+            <p>22212 인천광역시 미추홀구 인하로 100 인하공업전문대학 5호관 401호 <br> TEL: 032-870-2240, FAX: 032-870-2516</p>
+            <p>COPYRIGHT(c) INHA TECHNICAL COLLEGE. ALL RIGHTS RESERVED.</p>
+        </div>
+    </div>
+</body>
+</html>

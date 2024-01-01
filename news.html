@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GISUP-NEWS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style04.css">
+
+    <style>
+        /* Common styles for the entire page */
+        body {
+            font-family: 'Philosopher', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Header styles */
+        header {
+            background: #0bd;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .page-header {
+            margin: 0;
+        }
+
+        .main-nav{
+            display:flex; 
+            list-style: none; 
+            font-size: 1.25rem;
+            margin-top: 34px;
+        }
+        .main-nav li{
+            margin-left: 36px;
+        }
+        .main-nav a{
+            color:#432;
+        }
+        .main-nav a:hover{
+            color:#0bd;
+        }
+        /* News section styles */
+        #news {
+            background-image: url(./img/news-bg.jpg);
+            height: 270px;
+            margin-bottom: 40px; 
+            text-align: center;
+        }
+        #news h2.page-title {
+            line-height: 1.7; 
+        }
+        /* News content styles */
+        .news-contents {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+        article {
+            width: 65%;
+            margin-right: 5%; /* Adjusted margin */
+        }
+        aside {
+            width: 30%;
+        }
+        /* Footer styles */
+        footer {
+            background-color: #432;
+            text-align: center;
+            padding: 26px 0;
+            color: #fff;
+        }
+        footer p {
+            font-size: 0.875rem;
+            margin: 5px 0;
+        }
+        /* Article styles */
+        article img {
+            margin-bottom: 20px;
+            max-width: 100%; /* Ensure images don't overflow */
+        }
+        article p {
+            margin-bottom: 1rem;
+        }
+        /* Sidebar styles */
+        aside {
+            width: 22%; 
+        }
+        .sub-title {
+            font-size: 1.375rem;
+            padding: 0 8px 8px;
+            border-bottom: 2px #0bd solid;
+            font-weight: normal;
+        }
+        .sub-menu {
+            margin-bottom: 60px;
+            list-style: none; 
+            padding: 0;
+        }
+        .sub-menu li {
+            border-bottom: 1px #ddd solid;
+        }
+        .sub-menu a {
+            color: #432;
+            padding: 10px;
+            display: block;
+            text-decoration: none;
+        }
+        .sub-menu a:hover {
+            color: #0bd; 
+        }
+        aside p {
+            padding: 12px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="news" class="big-bg">
+        <header class="page-header wrapper">
+            <h1>
+                <a href="index.html">
+                    <img class="log" src="./img/logo.jpg" alt="" >
+                </a>
+            </h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="union.html">UNION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>                
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="wrapper">
+            <h2 class="page-title">Geoingomatics</h2>
+        </div>
+    </div>
+
+    <div class="news-contents wrapper">
+        <article>
+            <header class="post-info">
+                <h2 class="post-title">세상을 한눈에, 삶을 편안하게 항공지리정보과</h2>
+                <p class="post-date">
+                    12/26
+                    <span>2020</span>
+                </p>
+                <p class="post-cat">카테고리: 학과소개</p>
+                <img src="./img/wall.jpg" alt="">
+                <p>Aute in ullamco aute duis.</p>
+                <p>Aute in ullamco aute duis.</p>
+                <p>Aute in ullamco aute duis.</p>
+            </header>
+        </article>
+        
+        <aside>
+            <h3 class="sub-title">카테고리</h3>
+            <ul class="sub-menu">
+                <li><a href="#">학과 소개</a></li>
+                <li><a href="#">교과 과정</a></li>
+                <li><a href="#">학생회</a></li>
+                <li><a href="#">자유게시판</a></li>
+            </ul>
+            <h3 class="sub-title">공간정보특성화</h3>
+            <p>
+                인하공업전문대학 항공 지리 정보과는공간 정보 인재 양성
+                위탁 기관인 공간정보산업진흥원과 사업 선정에 따른협약 체결한 후 최고의
+                공간정보산업교육체계 기반의 현장 중심 실무교육 실시 중임
+            </p>
+        </aside>
+    </div>
+    
+    <footer>
+        <div class="wrapper">
+            <p>22212 인천광역시 미추홀구 인하로 100 인하공업전문대학 5호관 401호 <br> TEL: 032-870-2240, FAX: 032-870-2516</p>
+            <p>COPYRIGHT(c) INHA TECHNICAL COLLEGE. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+</body>
+</html>

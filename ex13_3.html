@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문서객체모델</title>
+    <script>
+        window.onload = function(){
+            var a = document.createElement("h1");
+            // var b = document.createTextNode("스크립트: 헤드라인태그");
+            // a.appendChild(b);
+            a.innerHTML="innerHTML: 헤드라인태그"
+            document.body.appendChild(a);
+
+            var c = document.createElement("img");
+            // var s = document.createAttribute("src");
+            // s.value = "http://placekitten.com/200/300";
+            // c.setAttributeNode(s);
+            c.setAttribute("src","http://placekitten.com/200/300");
+            document.body.appendChild(c);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>헤드라인태그</h1>
+</body>
+
+</html>
